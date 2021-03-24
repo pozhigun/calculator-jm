@@ -1,4 +1,4 @@
-package ru.pozhigun.roman;
+package ru.pozhigun.alphabet;
 
 import java.util.TreeMap;
 

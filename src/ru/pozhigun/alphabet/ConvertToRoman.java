@@ -1,4 +1,4 @@
-package ru.pozhigun.roman;
+package ru.pozhigun.alphabet;
 
 public class ConvertToRoman extends Alphabet {
 
