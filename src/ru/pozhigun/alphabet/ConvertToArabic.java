@@ -39,4 +39,8 @@ public class ConvertToArabic extends Alphabet {
         return getMap().containsValue(number);
     }
 
+    public static boolean isRoman(String example) {
+        return example.matches("[IVXLCDM]+");
+    }
+
 }

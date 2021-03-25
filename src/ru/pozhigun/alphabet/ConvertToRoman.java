@@ -12,4 +12,8 @@ public class ConvertToRoman extends Alphabet {
         return getMap().get(l) + convert(number - l);
     }
 
+    public static boolean isArabic(String example) {
+        return example.matches("[1234567890]+");
+    }
+
 }
