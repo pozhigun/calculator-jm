@@ -6,7 +6,7 @@ public class ConvertToArabic extends Alphabet {
 
     public int convert(String number) {
         int result = 0;
-        String check = number.toUpperCase();
+        String check = number;
 
         if (number.length() <= 0) return 0;
 
@@ -39,7 +39,7 @@ public class ConvertToArabic extends Alphabet {
         return getMap().containsValue(number);
     }
 
-    public static boolean isRoman(String example) {
+    public boolean isRoman(String example) {
         return example.matches("[IVXLCDM]+");
     }
 
